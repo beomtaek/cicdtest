@@ -10,6 +10,7 @@
         dest: /root/cicdtest
         clone: yes
         update: yes
+        force: yes
 
     - name: kubectl apply
       shell: kubectl apply -f /root/cicdtest/web.yaml
