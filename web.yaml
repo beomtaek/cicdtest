@@ -9,6 +9,7 @@ spec:
       color: blue
   template:
     metadata:
+      name: web
       labels:
         color: blue
     spec:
