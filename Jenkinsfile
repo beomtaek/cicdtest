@@ -9,8 +9,8 @@ pipeline {
     stage('docker build and push') {
       steps {
         sh '''
-        docker build -t brian24/cicdtest:green .
-        docker push brian24/cicdtest:green
+        sudo docker build -t brian24/cicdtest:green .
+        sudo docker push brian24/cicdtest:green
         '''
       }
     }
